@@ -7,7 +7,7 @@ import ContactForm from '@/components/commons/ContactForm'
 const Contact = () => {
     return (
         <AppLayout>
-            <Breadcrumb name="Contact us" />
+            <Breadcrumb heading="Contact us" name="Contact us" />
             <ContactSection />
             <Map />
             <ContactForm />

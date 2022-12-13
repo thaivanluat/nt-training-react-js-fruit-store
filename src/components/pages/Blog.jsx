@@ -6,7 +6,7 @@ import BlogList from '@/components/commons/BlogList'
 const Blog = () => {
     return (
         <AppLayout>
-            <Breadcrumb name="Blog" />
+            <Breadcrumb heading="Blog" name="Blog" />
             <>
                 {/* Blog Section */}
                 <section className="blog spad">

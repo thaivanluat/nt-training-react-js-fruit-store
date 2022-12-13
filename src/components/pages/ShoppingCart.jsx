@@ -1,9 +1,12 @@
 import AppLayout from '@/components/layouts/AppLayout'
+import Breadcrumb from '@/components/commons/Breadcrumb'
+import ShoppingCartSection from '@/components/commons/ShoppingCartSection'
 
 const ShoppingCart = () => {
     return (
         <AppLayout>
-            <h1>ShoppingCart page</h1>
+            <Breadcrumb heading="Shopping Cart" name="Shopping Cart" />
+            <ShoppingCartSection />
         </AppLayout>
         
     );

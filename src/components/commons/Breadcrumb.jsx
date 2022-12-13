@@ -13,7 +13,7 @@ const Breadcrumb = (props) => {
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <div className="breadcrumb__text">
-                                <h2>{props.name}</h2>
+                                <h2>{props.heading}</h2>
                                 <div className="breadcrumb__option">
                                     <a href="./index.html">Home</a>
                                     <span>{props.name}</span>

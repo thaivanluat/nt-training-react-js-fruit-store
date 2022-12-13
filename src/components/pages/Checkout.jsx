@@ -1,9 +1,12 @@
 import AppLayout from '@/components/layouts/AppLayout'
+import Breadcrumb from '@/components/commons/Breadcrumb'
+import CheckoutSection from '@/components/commons/CheckoutSection'
 
 const Checkout = () => {
     return (
         <AppLayout>
-            <h1>Checkout page</h1>
+            <Breadcrumb heading="Checkout" name="Checkout" />
+            <CheckoutSection />
         </AppLayout>
         
     );
